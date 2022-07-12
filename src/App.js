@@ -6,20 +6,28 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Jewelery from "./pages/Jewelery";
 import Electronics from "./pages/Electronics";
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
+import Item from "./pages/Item";
 
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Products} />
-          <Route path="/Womens" exact component={Womens} />
-          <Route path="/Mens" exact component={Mens} />
-          <Route path="/Jewelery" exact component={Jewelery} />
-          <Route path="/Electronics" exact component={Electronics} />
-        </Switch>
-      </Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Products} />
+        <Route exact path="/Womens" component={Womens} />
+        <Route exact path="/Mens" component={Mens} />
+        <Route exact path="/Jewelery" component={Jewelery} />
+        <Route exact path="/Electronics" component={Electronics} />
+        <Route exact path="/LogIn" component={LogIn} />
+        <Route exact path="/SignUp" component={SignUp} />
+        <Route
+          exact
+          path="/Item/:id"
+          component={(props) => <Item {...props} />}
+        />
+      </Switch>
     </>
   );
 }

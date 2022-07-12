@@ -17,9 +17,9 @@ export default function Navbar() {
           <a href="/Mens">Men's</a>
           <a href="/Jewelery">Jewelery</a>
         </div>
-        <div className="cart">
+        <div className="rightIcons">
           <span>
-            <a className="user">
+            <a className="userIcon" href="/LogIn">
               <FaUserAlt />
             </a>
             <a>

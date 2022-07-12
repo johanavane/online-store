@@ -1,0 +1,73 @@
+.signUpContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 8vmin);
+    background-color: whitesmoke;
+}
+.signUpForm{
+    background-color: #e4ebf6;
+    border: 1px solid black;
+    width: 47vmin;
+    height: 60vmin;
+    border-radius: 20px;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    /* border-radius: 4px;
+    border: 1px solid #302d2d; */
+}
+
+.signUpForm h1{
+    padding: 3.4vmin;
+    font-size: 3.3vmin;
+    color: #445379;
+}
+
+.signUpEmail, .signUpButton{
+    padding-bottom: 3.5vmin;
+}
+
+.signUpPassword {
+    padding-bottom: 7vmin;
+
+}
+
+.signUpEmail input, .signUpPassword input{
+    border: none;
+    border-radius: 1vmin;
+    height: 6vmin;
+    width: 38vmin;
+    padding: 2vmin 2vmin;
+    font-size: 2vmin;
+    box-shadow: 5px 8px 15px #888888;
+
+}
+.signUpEmail p, .signUpPassword p{
+    text-align: left;
+    margin-left: 5vmin;
+    font-size: 2vmin;
+    font-weight: 700;
+    line-height: 4.4vmin;
+    color: #554e45;
+}
+
+
+/* Button Styling --------------------------- */
+.signUpButton button{
+    height: 6vmin;
+    width: 38vmin;
+    background: #445379;
+    color: whitesmoke;
+    border: none;
+    border-radius: 1vmin;
+    font-size: 2.2vmin;
+    box-shadow: 5px 8px 15px #888888;
+}
+
+/* Signup Styling --------------------------- */
+.linkLogIn a, link{
+    font-size: 2vmin;
+    color: black;
+}
