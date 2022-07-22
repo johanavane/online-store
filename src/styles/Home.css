@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.homeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 8vmin);
+    /* background-color: whitesmoke; */
+    background-color: #acf4ab;
+
+}
+
+.homeTitle {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30vmin;
+    text-align: center;
+    /* background-color: palevioletred; */
+}
+
+.discount {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3vmin;
+    text-align: center;
+    /* background-color: paleturquoise; */
+}

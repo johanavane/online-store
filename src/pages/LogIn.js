@@ -57,7 +57,7 @@ function LogIn() {
         <div className="linkSignup">
           <a>New member? </a>
           {/* <a href="/SignUp">Sign up</a> */}
-          <Link to="/SignUp">sign up</Link>
+          <Link to="/SignUp">Sign up</Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 function Jewelery() {
   const [products, setProducts] = useState([]);
@@ -22,7 +23,9 @@ function Jewelery() {
         return (
           <div className="product-card">
             <div className="flexTop">
-              <img src={values.image} />
+              <Link to={{ pathname: `/Product/${values.id}`, state: values }}>
+                <img src={values.image} />
+              </Link>
             </div>
             <div className="flexBottom">
               <p className="categories"> {values.category}</p>

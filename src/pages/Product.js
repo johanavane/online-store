@@ -2,7 +2,7 @@ import React from "react";
 import { FaShippingFast } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 
-function Item({ location }) {
+function Product({ location }) {
   //   console.log(props.location.state);
   const { state } = location;
   console.log(state);
@@ -17,7 +17,7 @@ function Item({ location }) {
       <div className="itemRight">
         <p className="itemTitle">{state.title}</p>
         <p className="itemPrice">${state.price}</p>
-        <div className="itemSize">
+        {/* <div className="itemSize">
           <p>Size:</p>
           <select>
             <option>Please select </option>
@@ -25,7 +25,7 @@ function Item({ location }) {
             <option>Medium</option>
             <option>Large</option>
           </select>
-        </div>
+        </div> */}
         {/* <p className="itemDetails"> Product Details</p> */}
         <button className="itemButton">
           <a>Add to Bag</a>
@@ -46,4 +46,4 @@ function Item({ location }) {
   );
 }
 
-export default Item;
+export default Product;
