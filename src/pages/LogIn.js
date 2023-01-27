@@ -4,8 +4,8 @@ import "../styles/LogIn.css";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 
 function LogIn() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
   const [hidden, setHidden] = useState(true);
 
   function toggleShow() {
@@ -43,20 +43,18 @@ function LogIn() {
           {/* Forgot Password */}
           <div className="forgotPassword">
             <label>
-              {/* <input type="checkbox" name="checked" /> */}
               <a> Forgot password? </a>
             </label>
           </div>
 
           {/* Login Button */}
           <div className="loginButton">
-            <button> Sign in </button>
+            <button> Log in </button>
           </div>
         </form>
         {/* Link to Sign Up */}
         <div className="linkSignup">
           <a>New member? </a>
-          {/* <a href="/SignUp">Sign up</a> */}
           <Link to="/SignUp">Sign up</Link>
         </div>
       </div>

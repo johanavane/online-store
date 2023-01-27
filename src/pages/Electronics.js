@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
+// css from app.css
 
 function Electronics() {
   const [products, setProducts] = useState([]);
@@ -17,7 +18,6 @@ function Electronics() {
 
   return (
     <div className="container">
-      {/* container : background set up */}
       {products.map((values) => {
         return (
           <div className="product-card">

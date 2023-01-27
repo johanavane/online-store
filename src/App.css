@@ -76,7 +76,7 @@
 }
 
 
-/* PRODUCT PAGES ---------------------------------------------------*/
+/* Individual Product Pages ---------------------------------------------------*/
 .itemContainer{
   display: flex;
   align-items: center;
@@ -89,6 +89,7 @@
   
 }
 
+/* product image */
 .itemLeft{
   background-color: palevioletred;
   height: 79vmin;
@@ -99,13 +100,12 @@
   width: 65vmin;
 }
 
+/* product info */
 .itemRight{
-  /* position: absolute; */
   display: flex;
   align-items: left;
   justify-content: center;
   flex-direction: column;
-  /* background-color: palegreen; */
   height: 80vmin;
   width: 39vmin;
 }

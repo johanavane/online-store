@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 import "../styles/SignUp.css";
 
 function SignUp() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
   const [hidden, setHidden] = useState(true);
 
   function toggleShow() {
@@ -42,7 +41,7 @@ function SignUp() {
 
           {/* SignUp Button */}
           <div className="signUpButton">
-            <button> Sign in </button>
+            <button> Sign up </button>
           </div>
         </form>
         {/* Link to Sign Up */}
