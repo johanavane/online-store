@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
+// css from app.css
 
 function Mens() {
   const [products, setProducts] = useState([]);
@@ -18,7 +19,6 @@ function Mens() {
 
   return (
     <div className="container">
-      {/* container : background set up */}
       {products.map((values) => {
         return (
           <div className="product-card">
@@ -38,5 +38,4 @@ function Mens() {
     </div>
   );
 }
-
 export default Mens;

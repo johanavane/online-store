@@ -1,9 +1,9 @@
+// Item product pages
 import React from "react";
 import { FaShippingFast } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 
 function Item({ location }) {
-  //   console.log(props.location.state);
   const { state } = location;
   console.log(state);
   if (!state) {
@@ -17,15 +17,18 @@ function Item({ location }) {
       <div className="itemRight">
         <p className="itemTitle">{state.title}</p>
         <p className="itemPrice">${state.price}</p>
-        <div className="itemSize">
-          <p>Size:</p>
-          <select>
-            <option>Please select </option>
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
-          </select>
-        </div>
+
+        {state.category !== "jewelery" && (
+          <div className="itemSize">
+            <p>Size:</p>
+            <select>
+              <option>Please select </option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+          </div>
+        )}
         {/* <p className="itemDetails"> Product Details</p> */}
         <button className="itemButton">
           <a>Add to Bag</a>

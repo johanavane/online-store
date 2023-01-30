@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
+// css from app.css
 
 function Womens() {
   const [products, setProducts] = useState([]);
@@ -18,13 +19,10 @@ function Womens() {
 
   return (
     <div className="container">
-      {/* container : background set up */}
       {products.map((values) => {
         return (
           <div className="product-card">
             <div className="flexTop">
-              {/* <a href={`/item/${values.id}`}>id</a> */}
-              {/* <a href={{ pathname: `/item/${values.id}`, state: values }}>id</a> */}
               <Link to={{ pathname: `/Item/${values.id}`, state: values }}>
                 <img src={values.image} />
               </Link>
@@ -40,5 +38,4 @@ function Womens() {
     </div>
   );
 }
-
 export default Womens;

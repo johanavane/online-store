@@ -9,7 +9,6 @@ import Electronics from "./pages/Electronics";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import Item from "./pages/Item";
-import Product from "./pages/Product";
 
 function App() {
   return (
@@ -27,11 +26,6 @@ function App() {
           exact
           path="/Item/:id"
           component={(props) => <Item {...props} />}
-        />
-        <Route
-          exact
-          path="/Product/:id"
-          component={(props) => <Product {...props} />}
         />
       </Switch>
     </>

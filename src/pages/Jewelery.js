@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
+// css from app.css
 
 function Jewelery() {
   const [products, setProducts] = useState([]);
@@ -18,12 +19,11 @@ function Jewelery() {
 
   return (
     <div className="container">
-      {/* container : background set up */}
       {products.map((values) => {
         return (
           <div className="product-card">
             <div className="flexTop">
-              <Link to={{ pathname: `/Product/${values.id}`, state: values }}>
+              <Link to={{ pathname: `/Item/${values.id}`, state: values }}>
                 <img src={values.image} />
               </Link>
             </div>
