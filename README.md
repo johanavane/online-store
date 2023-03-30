@@ -1,1 +1,1 @@
-# Clothing and Accesories Store
+# JAMZ - Clothing & Accesories Store
