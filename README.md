@@ -1,74 +1,50 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Online Store Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to JAMZ, a clothing & accessories store. This web application simulates an e-commerce experience, offering a range of products in women’s, men’s, and jewelry categories.
 
-## Available Scripts
+## Tech Stack
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![figma](https://img.shields.io/badge/figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+- **FakeStore API:** I integrated the FakeStore API for data retrieval, populating the online store with product information to simulate an e-commerce catalog.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Key Pages:** The web application includes several key pages:
+  - **Landing Page:** Welcomes users to the online store and provides an overview of available products.
+  - **Login Page:** Allows registered users to log in.
+  - **Registration Page:** Allows new users to create an account.
+  - **Product Pages:** Individual pages for each product, displaying detailed information, pricing, descriptions, and sizing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
+I managed the development process and tracked tasks using Trello, ensuring a structured and organized workflow. The website is successfully deployed and hosted on Netlify, ensuring fast and reliable access for visitors.
 
-### `npm test`
+## Getting Started
+To run this project locally for development or testing purposes, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/johanavane/online-store.git`
+2. Navigate to the project directory: `cd online-store`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start` or `yarn start`
+5. Access the website in your browser at `http://localhost:3000`
+   
+The page will automatically reload if you make any edits, and any lint errors will be displayed in the console.
 
-### `npm run build`
+## Contact
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you have any questions or would like to get in touch, feel free to reach out to me via email at [johanamalv@gmail.com](mailto:johanamalv@gmail.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Thank you for visiting my project!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+<img width="1440" alt="jewelery" src="https://github.com/johanavane/online-store/assets/60996916/0d791c1b-fc4f-4d47-9ab2-ce718b7d6a24">
+<img width="1440" alt="womenItem" src="https://github.com/johanavane/online-store/assets/60996916/2ffabeec-0432-46e2-a435-18def76732c1">
+<img width="1440" alt="bracelet" src="https://github.com/johanavane/online-store/assets/60996916/77e21dbb-816c-4ba8-99ab-01bea33d25ef">
+<img width="1440" alt="storeSignUp" src="https://github.com/johanavane/online-store/assets/60996916/fb7b3143-54bc-49e5-a7fa-52c65c155b49">
+<img width="1440" alt="storeLogIn" src="https://github.com/johanavane/online-store/assets/60996916/f11050ed-0722-41aa-ab5c-010b7d0de68f">
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# JAMZ - Clothing & Accesories Store
->>>>>>> 76689876313c0de75f1aa4978585f312dff24d20
